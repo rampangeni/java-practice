@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.zerooneknapsack;
 
 public class ZeroOneKnapSackRecursive {
 
@@ -25,8 +25,8 @@ public class ZeroOneKnapSackRecursive {
         int itemWeights[] = {1,3,4,5};
         int knapsackWeight = 7;
 
-        ZeroOneKnapSackRecursive zeroOneKnapSackRecursive = new ZeroOneKnapSackRecursive();
-        int profit = zeroOneKnapSackRecursive.findMaxProfit(itemValues, itemWeights, knapsackWeight, itemValues.length);
+        ZeroOneKnapSackRecursive recursive = new ZeroOneKnapSackRecursive();
+        int profit = recursive.findMaxProfit(itemValues, itemWeights, knapsackWeight, itemValues.length);
         System.out.println("Profit: " + profit);
     }
 }
